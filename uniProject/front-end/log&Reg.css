@@ -115,7 +115,13 @@ p>a:hover{
 }
 
 @media (max-width: 480px) {
-    .container {
+  .container1 {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .container2 {
         width: 90%;
         height: auto;
         padding: 20px;
