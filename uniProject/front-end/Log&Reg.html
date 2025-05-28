@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and registration</title>
+    <link rel="stylesheet" href="log&Reg.css">
+    <script src="https://kit.fontawesome.com/7e6c23d6fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   <div class="container1">
+    <h2>LOGIN</h2>
+    <form action="">
+
+        <div class="form-grp">
+            <input type="email" id="e" required>
+            <label for="e">Email</label>
+            <i class="fa-solid fa-envelope"></i>
+           
+        </div>
+
+        <div class="form-grp">
+            <input type="password" id="p" required>
+            <label for="p">password</label>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+
+        <p><input type="checkbox" id="">Remember Me <a href="#">Forget Password?</a></p>
+        <input id="btn" type="button" value="Login">
+        <p>Don't Have an Account? <a id="Register" href="#">Register</a></p>
+
+    </form>
+   </div>
+<!-- ********************************************************************************************************* -->
+   <div class="container2">
+    <h2>Sign up</h2>
+    <form action="">
+
+        <div class="form-grp">
+            <input type="text" id="nm" required>
+            <label for="nm">Name</label>
+            <i class="fa-solid fa-envelope"></i>      
+        </div>
+
+        <div class="form-grp">
+            <input type="email" id="emi" required>
+            <label for="emi">Email</label>
+            <i class="fa-solid fa-envelope"></i>      
+        </div>
+
+        <div class="form-grp">
+            <input type="password" id="pws" required>
+            <label for="pws">Create password</label>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+
+        <div class="form-grp">
+            <input type="password" id="cpws" required>
+            <label for="cpws">Conform password</label>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+
+        <input id="btn" type="button" value="create account">
+        <p>Already Have an Account? <a id="Login" href="#">login</a></p>
+
+    </form>
+   </div>
+</body>
+<script src="log&Reg.js"></script>
+</html>
